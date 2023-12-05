@@ -1,0 +1,4 @@
+El primer paso que tuve que dar fue principalmente observar un tutorial de html donde me han ido guiando para ver que realiza cada cosa
+En cuanto al css me ha costado bastante a la hora de quererlo centrar todo como a su vez el hecho de poner una imagen con link cosa la cual me toco ver un video de youtube para saber como hacerlo.
+En cuanto a otras cosas del codigo me costo bastante crear el botón de ir al comienzo pero no mucho ya que me lo medio enseñaron a hacer en el tutorial y en cuanto al boton de contacto me costo bastante porque no sabia bien como meter el código hasta que me di cuenta que era igual que con las fotos.
+En el formulario me costo mucho el hacer los fondos para que se crease las zonas de los cuadros pero con el tutorial de css me eseñaba como hacelos para que se viesen bien ya lo de la foto de fondo si que lo hize yo porque no quería que se quedara un fondo tan muerto con el fondo blanco.

@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    
+        background-image: url('../IMÁGENES/cristiano-ronaldo-of-portugal-looks-dejected-following-news-photo-1624346993.jpg');
+        background-size: cover; 
+        background-position: center; /* Centra la imagen en el fondo */
+        background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */        margin: 0;
+
+     
+    
+}
+
+
+header {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+h1 {
+    color: #333;
+}
+h2{
+
+    color: green;
+}
+
+section {
+    margin-top: 20px;
+}
+
+p {
+    margin-top: 20px;
+    padding: 10px;
+    
+    opacity: 90%;
+    line-height: 1.5;
+    color: black
+    ;
+}
+
+footer {
+    
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f2f2f2;
+}
