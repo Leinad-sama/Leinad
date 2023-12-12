@@ -1,78 +1,50 @@
-html {
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Roboto', sans-serif;
+/*BICHO*/
+
+.bbody{
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    
+        background-image: url('../IMÁGENES/cristiano-ronaldo-of-portugal-looks-dejected-following-news-photo-1624346993.jpg');
+        background-size: cover; 
+        background-position: center; /* Centra la imagen en el fondo */
+        background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */        margin: 0;
+
+     
+    
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    background-image: url('../IMÁGENES/fondodepnat.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    font-family: 'Montserrat', sans-serif;
-    background-color: #efefef;
-}
-
-header {
-    background-color: #364552;
-    color: white;
-    padding: 3rem 2rem;
-}
-
-header h1 {
-    font-size: 4rem;
+.bheader {
     text-align: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+.bh1 {
+    color: #333;
+}
+.bh2{
+
+    color: green;
 }
 
-.container {
-    width: 400px;
-    margin: 0 auto;
+.bsection {
+    margin-top: 20px;
 }
 
-section article {
-    transition: box-shadow 0.3s ease;
-    background-color: #fff;
-    margin: 1rem 0;
-    border-radius: 0.5rem;
-    padding: 0.25rem 0;
-    cursor: pointer;
+.bp {
+    margin-top: 20px;
+    padding: 10px;
+    
+    opacity: 90%;
+    line-height: 1.5;
+    color: black
 }
 
-section article:hover {
-    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
-}
 
-section article h2,
-section article p {
-    margin: 1rem;
-}
+/*compañeros*/
 
-footer {
-    background-color: #222;
-    padding: 3rem;
-    color: white;
-}
 
-footer section {
-    float: right;
-}
 
-footer p {
-    margin: 0;
-}
-
-footer a {
-    transition: color 0.3s ease;
-    color: white;
-    text-decoration: none;
-}
-
-footer a:hover {
-    color: cornflowerblue;
-}
-
-body {
+.cbody {
     font-family: 'Montserrat', sans-serif;
     background-color: #f4f4f4;
     color: #333;
@@ -81,19 +53,18 @@ body {
     box-sizing: border-box;
 }
 
-header {
+.cheader {
     background-color: #007bff;
     color: #fff;
     text-align: center;
     padding: 1em;
 }
 
-h1,
-h2 {
+.ch1, .ch2 {
     color: #007bff;
 }
 
-article {
+.carticle {
     margin: 20px;
     padding: 20px;
     background-color: #fff;
@@ -101,51 +72,199 @@ article {
     border-radius: 8px;
 }
 
-p {
+.cp {
     margin-bottom: 15px;
 }
 
-a {
+.ca {
     text-decoration: none;
     color: #007bff;
     font-weight: bold;
 }
 
-img {
+.cimg {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
     margin-top: 10px;
 }
 
-table {
+
+
+.ctable {
     border-collapse: collapse;
     width: 100%;
-}
+  }
 
-th,
-td {
+  .cth, .ctd {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: left;
-}
+  }
 
-th {
+  .cth {
     background-color: #f2f2f2;
+  }
+
+  /*FUNDAMENTOS*/
+
+  .fbody {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body {
+.fheader {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+.fh1, .fh2 {
+    color: #007bff;
+}
+
+.farticle {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.fp {
+    margin-bottom: 15px;
+}
+
+.fa {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.fimg {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+/*SOBREMI*/
+
+.sbody {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+.sheader {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.sh1, .sh2 {
+    color: #333;
+}
+.ssection {
+    margin-bottom: 30px;
+}
+
+/* INDEX*/
+.ihtml{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+.ibody{
+    background-image: url('../IMÁGENES/fondodepnat.jpg');
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+    background-position: center; /* Centra la imagen en el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    margin: 0;
+
+    background-color: #efefef;
+}
+
+
+.iheader{
+    background-color: #364552;
+    color: white;
+    padding: 3rem 2rem;
+}
+.ih1{
+    font-size: 4rem;
+    text-align: center;
+}
+.icontainer{
+
+
+    width: 400px;
+    margin: 0 auto;
+}
+
+
+.iarticle{
+     transition: box-shadow 0.3s ease;
+    background-color: #fff;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor:pointer;
+}
+
+
+.ihover{
+
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+}
+
+.ih2, .ip{
+
+    margin:1rem ;
+}
+
+.ifooter{
+
+    background-color: #222;
+    padding: 3rem;
+    color: white;
+
+}
+
+.ifooter section{
+    float: right;
+}
+
+.ifooter p{
+    margin: 0;
+
+}
+.ifooter a{
+    transition: color 0.3s ease;
+    color: white;
+    text-decoration: none;
+
+}
+.ifooter a:hover{
+    color: cornflowerblue;
+}
+
+
+/*formulario*/
+
+.formbody {
     margin: 0;
     padding: 0;
     background-image: url('../IMÁGENES/fondodepnat.jpg');
-    background-size: cover;
+    background-size: none;
     background-position: center;
     background-repeat: no-repeat;
-    font-family: 'Montserrat', sans-serif;
-    /* Agrega la fuente que hayas elegido */
+    font-family: 'Montserrat', sans-serif; /* Agrega la fuente que hayas elegido */
 }
 
-.container {
+.formcontainer {
     width: 50%;
     margin: auto;
     padding: 20px;
@@ -153,22 +272,22 @@ body {
     margin-top: 50px;
 }
 
-form {
+.formform {
     max-width: 400px;
     margin: auto;
 }
 
-h2 {
+.formh2 {
     text-align: center;
 }
 
-label {
+.formlabel {
     display: block;
     margin-top: 10px;
 }
 
-input,
-textarea {
+.forminput,
+.formtextarea {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
@@ -178,7 +297,7 @@ textarea {
     box-sizing: border-box;
 }
 
-button {
+.formbutton {
     background-color: #4CAF50;
     color: white;
     padding: 10px 15px;
@@ -188,8 +307,6 @@ button {
     width: 100%;
 }
 
-button:hover {
+.formhover {
     background-color: #45a049;
 }
-
-

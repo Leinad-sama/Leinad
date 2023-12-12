@@ -1,4 +1,4 @@
-body {
+.formbody {
     margin: 0;
     padding: 0;
     background-image: url('../IMÁGENES/fondodepnat.jpg');
@@ -8,7 +8,7 @@ body {
     font-family: 'Montserrat', sans-serif; /* Agrega la fuente que hayas elegido */
 }
 
-.container {
+.formcontainer {
     width: 50%;
     margin: auto;
     padding: 20px;
@@ -16,22 +16,22 @@ body {
     margin-top: 50px;
 }
 
-form {
+.formform {
     max-width: 400px;
     margin: auto;
 }
 
-h2 {
+.formh2 {
     text-align: center;
 }
 
-label {
+.formlabel {
     display: block;
     margin-top: 10px;
 }
 
-input,
-textarea {
+.forminput,
+.formtextarea {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
@@ -41,7 +41,7 @@ textarea {
     box-sizing: border-box;
 }
 
-button {
+.formbutton {
     background-color: #4CAF50;
     color: white;
     padding: 10px 15px;
@@ -51,7 +51,7 @@ button {
     width: 100%;
 }
 
-button:hover {
+.formhover {
     background-color: #45a049;
 }
 
