@@ -1,9 +1,9 @@
-html{
+.ihtml{
     font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto', sans-serif;
 }
 
-body{
+.ibody{
     background-image: url('../IMÁGENES/fondodepnat.jpg');
     background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el fondo */
@@ -14,16 +14,16 @@ body{
 }
 
 
-header{
+.iheader{
     background-color: #364552;
     color: white;
     padding: 3rem 2rem;
 }
-header h1{
+.ih1{
     font-size: 4rem;
     text-align: center;
 }
-.container{
+.icontainer{
 
 
     width: 400px;
@@ -31,7 +31,7 @@ header h1{
 }
 
 
-section article{
+.iarticle{
      transition: box-shadow 0.3s ease;
     background-color: #fff;
     margin: 1rem 0;
@@ -41,17 +41,17 @@ section article{
 }
 
 
-section article:hover{
+.iarticle:hover{
 
     box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
 }
 
-section article h2, section article p{
+.ih2, .ip{
 
     margin:1rem ;
 }
 
-footer{
+.ifooter{
 
     background-color: #222;
     padding: 3rem;
@@ -59,20 +59,20 @@ footer{
 
 }
 
-footer section{
+.ifooter section{
     float: right;
 }
 
-footer p{
+.ifooter p{
     margin: 0;
 
 }
-footer a{
+.ifooter a{
     transition: color 0.3s ease;
     color: white;
     text-decoration: none;
 
 }
-footer a:hover{
+.ifooter a:hover{
     color: cornflowerblue;
 }

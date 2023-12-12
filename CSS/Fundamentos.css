@@ -1,4 +1,4 @@
-body {
+.fbody {
     font-family: 'Montserrat', sans-serif;
     background-color: #f4f4f4;
     color: #333;
@@ -7,18 +7,18 @@ body {
     box-sizing: border-box;
 }
 
-header {
+.fheader {
     background-color: #007bff;
     color: #fff;
     text-align: center;
     padding: 1em;
 }
 
-h1, h2 {
+.fh1, .fh2 {
     color: #007bff;
 }
 
-article {
+.farticle {
     margin: 20px;
     padding: 20px;
     background-color: #fff;
@@ -26,17 +26,17 @@ article {
     border-radius: 8px;
 }
 
-p {
+.fp {
     margin-bottom: 15px;
 }
 
-a {
+.fa {
     text-decoration: none;
     color: #007bff;
     font-weight: bold;
 }
 
-img {
+.fimg {
     max-width: 100%;
     height: auto;
     border-radius: 8px;

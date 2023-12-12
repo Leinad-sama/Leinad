@@ -1,4 +1,4 @@
-body {
+.bbody{
     font-family: Arial, sans-serif;
     margin: 20px;
     
@@ -12,25 +12,25 @@ body {
 }
 
 
-header {
+.bheader {
     text-align: center;
     background-color: #f2f2f2;
     padding: 10px;
 }
 
-h1 {
+.bh1 {
     color: #333;
 }
-h2{
+.bh2{
 
     color: green;
 }
 
-section {
+.bsection {
     margin-top: 20px;
 }
 
-p {
+.bp {
     margin-top: 20px;
     padding: 10px;
     
